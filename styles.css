@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border: 5px solid #009688;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 0.5rem 0;
+    color: #009688;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #777;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #009688;
+    padding-bottom: 0.25rem;
+    color: #009688;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+ul li {
+    background: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+.job {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #009688; 
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
